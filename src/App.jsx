@@ -7,7 +7,7 @@ function App() {
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const [placeholder, setPlaceholder] = useState(
-    "Type it.....as u imagine !"
+    "Type it.....as you imagine !"
   );
   const configuration = new Configuration({
     apiKey: import.meta.env.VITE_Open_AI_Key,
